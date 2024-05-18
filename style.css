@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.main {
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.heading {
+  margin: 20px 0;
+}
+
+.counters {
+  margin: 20px 0;
+}
+
+.counters .counterValue p {
+  padding: 5px 0;
+  display: inline-block;
+  border-bottom: 1px solid white;
+}
+
+.counters .counterError {
+  margin: 10px 0;
+}
+
+.counters .counterError p {
+  color: red;
+  display: none;
+}
+
+.buttons {
+  margin: 20px 0;
+  display: flex;
+}
+
+.buttons .button {
+  width: 13%;
+  padding: 5px 10px;
+  border-radius: none;
+  border: 1px solid white;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.buttons .clearButton {
+  background-color: black;
+  color: white;
+  display: none;
+}
